@@ -13,7 +13,7 @@ class AddsController extends Controller
 
 
   //yujyugyhihkjhkjhkljhk
-    /**
+    /**ghghghghghghgh
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
