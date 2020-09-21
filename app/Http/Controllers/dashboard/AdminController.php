@@ -24,6 +24,8 @@ use RealRashid\SweetAlert\Facades\Alert;
 
 class AdminController extends Controller
 {
+
+    ///dsfdfdffghtytyt
     public function dashboardpage(){
         $journalists=Journalist::All();
          $magazines=Magazine::All();

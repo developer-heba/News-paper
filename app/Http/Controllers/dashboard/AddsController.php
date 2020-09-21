@@ -12,7 +12,7 @@ class AddsController extends Controller
 {
 
 
-  //jjhjhjhjhjhjhjhttfgfg
+  //yujyugyhihkjhkjhkljhk
     /**
      * Display a listing of the resource.
      *
