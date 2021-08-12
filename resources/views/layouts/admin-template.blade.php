@@ -38,21 +38,8 @@
 
 		<!--DataTables css-->
 		<link rel="stylesheet" href="{{asset('Backend/plugins/Datatable/css/dataTables.bootstrap4.css')}}">
-
-
-
-
-
-
-
-
-
         <!-- tosatr cs file-->
          <link rel="stylesheet" type="text/css" href="{{ asset('Backend/css/toastr.min.css') }}">  
-
-
-
-
 	</head>
 
 	<body class="app ">

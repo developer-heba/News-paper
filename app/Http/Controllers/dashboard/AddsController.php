@@ -54,8 +54,8 @@ class AddsController extends Controller
         
         if($request->has('image')){
             
-            $filename = time().'_'.$request->file('image')->getClientOriginalName();
-                $request->file('image')->storeAs('Adds_images',$filename);
+            $filename = time().'_'.$request->file('file')->getClientOriginalName();
+                $request->file('file')->storeAs('Adds_images',$filename);
         }
         
          $adds =Adds::create([

@@ -12,7 +12,7 @@ class Adds extends Model
        return  $this->belongsTo(Magazine::class,'magazine_id','id');
     }
      public function  getstatus(){
-        return $this -> status == 1 ? 'active'  : ' pending';
+        return $this->status == 1 ? 'active'  : ' pending';
  
      }
 }

@@ -12,7 +12,7 @@ class Journalist extends Model
        return  $this->hasMany(Magazine::class,'journalist_id','id');
     }
     public function  getstatus(){
-        return $this -> status == 1 ? 'active'  : ' pending';
+        return $this ->status == 1 ? 'active'  : ' pending';
  
      }
 }
